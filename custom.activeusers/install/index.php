@@ -32,7 +32,7 @@ class custom_activeusers  extends CModule
 
     function UnInstallFiles()
     {
-        DeleteDirFilesEx("/local/components/custom");
+        DeleteDirFilesEx("/bitrix/components/custom");
         return true;
     }
 
